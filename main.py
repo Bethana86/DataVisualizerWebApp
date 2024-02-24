@@ -76,14 +76,11 @@ if selected_file:
 
         # Show the results
         st.pyplot(fig)
-
-    #hide
-        
-    hide_st_style = """
+hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
             </style>
             """
-    st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown(hide_st_style, unsafe_allow_html=True) 
